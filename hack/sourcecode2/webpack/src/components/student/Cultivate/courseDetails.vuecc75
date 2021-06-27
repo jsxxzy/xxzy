@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('Header',{attrs:{"title":"课程详情"}}),_vm._v(" "),_c('div',{staticClass:"courseDetails content_"},[_c('h3',[_vm._v(_vm._s(this.detailList.courseName))]),_vm._v(" "),_c('ul',[_c('li',[_vm._v("课号："+_vm._s(this.detailList.courseCode))]),_vm._v(" "),_c('li',[_vm._v("属性："+_vm._s(this.detailList.courseAttribute))]),_vm._v(" "),_c('li',[_vm._v("开设学期："+_vm._s(this.detailList.openSemester))]),_vm._v(" "),_c('li',[_vm._v("学分："+_vm._s(this.detailList.credit))]),_vm._v(" "),_c('li',[_vm._v("总学时："+_vm._s(this.detailList.totalHours))]),_vm._v(" "),(this.detailList.classHourClassification)?_c('li',[_vm._v("\n        "+_vm._s(this.detailList.classHourClassification[0].name)+"："+_vm._s(this.detailList.classHourClassification[0].classHour)+"\n      ")]):_vm._e(),_vm._v(" "),(this.detailList.classHourClassification)?_c('li',[_vm._v("\n        "+_vm._s(this.detailList.classHourClassification[1].name)+"："+_vm._s(this.detailList.classHourClassification[1].classHour)+"\n      ")]):_vm._e(),_vm._v(" "),(this.detailList.classHourClassification)?_c('li',[_vm._v("\n        "+_vm._s(this.detailList.classHourClassification[2].name)+"："+_vm._s(this.detailList.classHourClassification[2].classHour)+"\n      ")]):_vm._e(),_vm._v(" "),(this.detailList.classHourClassification)?_c('li',[_vm._v("\n        "+_vm._s(this.detailList.classHourClassification[3].name)+"："+_vm._s(this.detailList.classHourClassification[3].classHour)+"\n      ")]):_vm._e()])])],1)}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-2c95f5f2","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/student/Cultivate/courseDetails.vue
+// module id = null
+// module chunks = 

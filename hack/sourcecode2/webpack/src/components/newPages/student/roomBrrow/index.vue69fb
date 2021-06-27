@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"my-applyRecord"},[_c('Header',{attrs:{"title":"学生教室借用"}}),_vm._v(" "),(this.recordList.length == 0)?_c('NOdata',{attrs:{"title":"暂无申请记录~"}}):_vm._l((_vm.recordList),function(item,index){return _c('div',{key:index,staticClass:"record_box"},[_c('div',{staticClass:"record_fl"},[_c('p',[_vm._v(_vm._s(item.courseName))]),_vm._v(" "),_c('span',[_vm._v("教学周次：第"+_vm._s(item.weekly)+"周")]),_vm._v(" "),_c('span',[_vm._v("星期几："+_vm._s(item.dayweek))]),_vm._v(" "),_c('span',{staticClass:"span1"},[_vm._v("教室容量："+_vm._s(item.classroomCapacity))]),_vm._v(" "),_c('span',{staticClass:"span1"},[_vm._v("起止节次："+_vm._s(item.node))]),_vm._v(" "),_c('span',{staticClass:"span1"},[_vm._v("校区："+_vm._s(item.campus))]),_vm._v(" "),_c('span',{staticClass:"span1"},[_vm._v("教学楼："+_vm._s(item.tchBuilding))])]),_vm._v(" "),_c('div',{staticClass:"record_fr",style:({ color: _vm.color1 })},[_vm._v(_vm._s(item.state))])])})],2)}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-f63b6016","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/newPages/student/roomBrrow/index.vue
+// module id = null
+// module chunks = 

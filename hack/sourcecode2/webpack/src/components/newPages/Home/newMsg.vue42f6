@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"message"},[_c('router-link',{staticClass:"msg-item",attrs:{"tag":"div","to":{path:'/notice',query:{type:0}}}},[_c('img',{attrs:{"src":require("../../../../static/img/undo.png")}}),_vm._v(" "),_c('div',{staticClass:"item-text"},[_c('span',[_vm._v("待处理消息")]),_vm._v(" "),_c('p',[_vm._v(_vm._s(this.pendList))])])]),_vm._v(" "),_c('router-link',{staticClass:"msg-item",attrs:{"tag":"div","to":{path:'/notice',query:{type:1}}}},[_c('img',{attrs:{"src":require("../../../../static/img/unread.png")}}),_vm._v(" "),_c('div',{staticClass:"item-text"},[_c('span',[_vm._v("未读消息")]),_vm._v(" "),_c('p',[_vm._v(_vm._s(this.unreadList == 'undefined' ? '暂无' : this.unreadList))])])]),_vm._v(" "),_c('router-link',{staticClass:"msg-item",attrs:{"tag":"div","to":{path:'/notice',query:{type:2}}}},[_c('img',{attrs:{"src":require("../../../../static/img/read.png")}}),_vm._v(" "),_c('div',{staticClass:"item-text"},[_c('span',[_vm._v("已读消息")]),_vm._v(" "),_c('p',[_vm._v(_vm._s(this.readList == 'undefined' ? '暂无' : this.readList))])])]),_vm._v(" "),_c('router-link',{staticClass:"msg-item",attrs:{"tag":"div","to":{path:'/adv'}}},[_c('img',{attrs:{"src":require("../../../../static/img/unread.png")}}),_vm._v(" "),_c('div',{staticClass:"item-text"},[_c('span',[_vm._v("已收公告")])])])],1)}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-69b617d0","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/newPages/Home/newMsg.vue
+// module id = null
+// module chunks = 

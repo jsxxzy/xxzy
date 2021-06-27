@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"adv"},[_c('Header',{attrs:{"title":"已收公告"}}),_vm._v(" "),(this.advLists.length == 0)?_c('NOdata',{attrs:{"title":"暂无消息~"}}):_c('div',_vm._l((_vm.advLists),function(item,index){return _c('div',{key:index},[_c('div',{staticClass:"adv-item"},[_c('h1',{staticClass:"adv-title"},[_vm._v("已收公告"+_vm._s(index+1))]),_vm._v(" "),_c('p',[_c('span',[_vm._v(_vm._s(item.ggbt))])]),_vm._v(" "),_c('router-link',{attrs:{"tag":"div","to":{name:'advItem',params:{ggid:item.ggid,gglbname:item.gglbname}}}},[_c('div',{staticClass:"check-dtl"},[_vm._v("查看详情")])])],1),_vm._v(" "),_c('div',{staticClass:"adv-time"},[_vm._v(_vm._s(item.ggfbsj))])])}),0)],1)}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-0807ee06","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/pages/Adv.vue
+// module id = null
+// module chunks = 

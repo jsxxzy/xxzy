@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('Header',{attrs:{"title":"重修报名","type":"0","route":"/homeIndex","casLogin":_vm.casLogin}}),_vm._v(" "),_c('div',{staticClass:"center"},[_vm._l((_vm.list),function(item,index){return _c('div',{key:index,staticClass:"center-list"},[_c('div',{staticClass:"list-left"},[_c('div',{staticClass:"left-title"},[_vm._v(_vm._s(item.kcmc))]),_vm._v(" "),_c('div',{staticClass:"left-line"},[_c('span',[_vm._v("编号:")]),_vm._v(" "),_c('span',{staticStyle:{"margin-left":"5px"}},[_vm._v(_vm._s(item.kch))]),_vm._v(" "),_c('span',{staticStyle:{"margin-left":"20px"}},[_vm._v("总成绩:")]),_vm._v(" "),_c('span',{staticStyle:{"margin-left":"5px"}},[_vm._v(_vm._s(item.zhcj))])]),_vm._v(" "),_c('div',{staticClass:"left-line"},[_c('span',[_vm._v("总学时:")]),_vm._v(" "),_c('span',{staticStyle:{"margin-left":"5px"}},[_vm._v(_vm._s(item.zxs))]),_vm._v(" "),_c('span',{staticStyle:{"margin-left":"20px"}},[_vm._v("总学分:")]),_vm._v(" "),_c('span',{staticStyle:{"margin-left":"5px"}},[_vm._v(_vm._s(item.xf))])])]),_vm._v(" "),_c('div',{staticClass:"list-right"},[(item.sfbm=='0' && _vm.sfkbm==true)?_c('van-button',{staticClass:"right-button",attrs:{"type":"default"},on:{"click":function($event){return _vm.pushDetail(item)}}},[_vm._v("报名")]):_vm._e(),_vm._v(" "),(item.sfbm=='1' && _vm.sfkbm==true && item.sfjf=='0' && item.skys=='0' && item.kkys=='0' && item.sfxk=='0')?_c('van-button',{staticClass:"right-button",staticStyle:{"background":"#F86969"},attrs:{"type":"default"},on:{"click":function($event){return _vm.cancelBm(item)}}},[_vm._v("取消")]):_vm._e()],1)])}),_vm._v(" "),(_vm.NOdata)?_c('van-empty',{staticClass:"custom-image",attrs:{"image":"static/img/no_data.png","description":"暂无数据"}}):_vm._e()],2)],1)}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-2fe4ffc0","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/student/retouchSignUp/list.vue
+// module id = null
+// module chunks = 

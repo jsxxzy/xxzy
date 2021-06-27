@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"score_apply"},[_c('Header',{attrs:{"title":"我的成绩认定申请"}}),_vm._v(" "),(this.applyList.length == 0)?_c('NOdata',{attrs:{"title":"当前没有已申请的课程~"}}):_c('div',{staticClass:"score_apply_list"},_vm._l((_vm.applyList),function(item,index){return _c('div',{key:index,on:{"click":function($event){return _vm.scoreDetail(item.cjrd02id)}}},[_c('div',[_c('h4',[_vm._v(_vm._s(item.courseName))]),_vm._v(" "),_c('p',[_vm._v("替换课程："+_vm._s(item.substitutionCourseName))]),_vm._v(" "),_c('p',[_vm._v("申请日期："+_vm._s(item.date))])]),_vm._v(" "),_c('h1',{style:(item.auditStatus == '审核中' ? 'color:#7469F8' :(item.auditStatus == '通过' ? 'color:#12DDD6' :'color:#F86969'))},[_vm._v(_vm._s(item.auditStatus))])])}),0)],1)}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-25182717","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/student/Score/score_apply.vue
+// module id = null
+// module chunks = 

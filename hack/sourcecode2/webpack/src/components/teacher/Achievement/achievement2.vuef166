@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"cjcx"},[_c('Header',{attrs:{"title":"成绩查询"}}),_vm._v(" "),_c('h4',{staticClass:"title"},[_vm._v("选择班级")]),_vm._v(" "),_vm._l((_vm.List),function(item,index){return _c('Menu',{key:index,attrs:{"title":item.className,"route":item.route,"query":item.query}})}),_vm._v(" "),(_vm.List.length === 0)?_c('NOdata'):_vm._e()],2)}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-00386702","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/teacher/Achievement/achievement2.vue
+// module id = null
+// module chunks = 

@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('Header',{attrs:{"title":"培养方案明细","type":"0","route":"/homeIndex"}}),_vm._v(" "),_c('div',{staticClass:"trainDetail"},[_c('van-tabs',{attrs:{"type":"line","sticky":"","animated":""},model:{value:(_vm.active),callback:function ($$v) {_vm.active=$$v},expression:"active"}},[_c('van-tab',{attrs:{"title":"培养目标"}},[_c('div',{staticClass:"courseDetails"},[_c('article',{domProps:{"innerHTML":_vm._s(_vm.active == 0 ? _vm.detailList.target : '')}})])]),_vm._v(" "),_c('van-tab',{attrs:{"title":"详细说明"}},[_c('div',{staticClass:"courseDetails"},[_c('article',{domProps:{"innerHTML":_vm._s(_vm.active == 1 ? _vm.detailList.explain : '')}})])]),_vm._v(" "),_c('van-tab',{attrs:{"title":"课程设置总表"}},[_c('div',{staticClass:"content"},_vm._l((_vm.clList),function(item,index){return _c('div',{key:index,staticClass:"content-item",on:{"click":function($event){return _vm.goDetail(item)}}},[_c('p',[_vm._v(_vm._s(item.courseName))]),_vm._v(" "),_c('van-row',[_c('van-col',{attrs:{"span":"12"}},[_c('ul',[_c('li',[_vm._v("总学时："+_vm._s(item.totalHours))]),_vm._v(" "),_c('li',[_vm._v("课程编号:"+_vm._s(item.courseCode))])])]),_vm._v(" "),_c('van-col',{attrs:{"span":"12"}},[_c('ul',[_c('li',[_vm._v("学分："+_vm._s(item.credit))]),_vm._v(" "),_c('li',[_vm._v("考核方式："+_vm._s(item.evaluationMode))])])])],1)],1)}),0)])],1)],1)],1)}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-3a4e007e","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/newPages/student/train/index.vue
+// module id = null
+// module chunks = 

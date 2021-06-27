@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"auth-main"},[_c('van-popup',{attrs:{"close-on-click-overlay":false},model:{value:(_vm.popShow),callback:function ($$v) {_vm.popShow=$$v},expression:"popShow"}},[_c('div',{staticClass:"auth-pop"},[_c('h1',[_vm._v("提示")]),_vm._v(" "),_c('h2',[_vm._v(_vm._s(_vm.warning))]),_vm._v(" "),_c('div',[_c('p',{on:{"click":function($event){return _vm.closePop()}}},[_vm._v("确定")])])])]),_vm._v(" "),_c('van-popup',{attrs:{"close-on-click-overlay":false},model:{value:(_vm.popShow1),callback:function ($$v) {_vm.popShow1=$$v},expression:"popShow1"}},[_c('div',{staticClass:"auth-pop"},[_c('h1',[_vm._v("提示")]),_vm._v(" "),_c('h2',[_vm._v(_vm._s(_vm.warning))]),_vm._v(" "),_c('button',{on:{"click":function($event){return _vm.backPop()}}},[_vm._v("返回")])])]),_vm._v(" "),(_vm.isLoaded)?_c('van-loading',{attrs:{"type":"spinner","color":"#212F6E","vertical":""}},[_vm._v("跳转中...")]):_vm._e()],1)}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-61da65cd","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/loginSso.vue
+// module id = null
+// module chunks = 

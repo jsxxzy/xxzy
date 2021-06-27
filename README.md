@@ -1,24 +1,3 @@
 # xxzy
 
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+校园的教务系统的前端是`vue`写的, 比较离谱的是直接暴露的 `.map` 文件, 故借花献佛提取了源码

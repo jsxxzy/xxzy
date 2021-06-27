@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('Header',{attrs:{"title":"成绩认定"}}),_vm._v(" "),_c('div',{staticClass:"score_confirm"},[_c('div',[_c('h2',{style:(this.infoList.auditStatus == '审核中' ? 'color:@attendance-background-color-1' :(this.infoList.auditStatus == '通过' ? 'color:#12DDD6' :'color:#F86969'))},[_vm._v(_vm._s(this.infoList.auditStatus))]),_vm._v(" "),_c('h4',[_vm._v(_vm._s(this.infoList.courseName))]),_vm._v(" "),_c('p',[_vm._v("课程代码："),_c('span',[_vm._v(_vm._s(this.infoList.courseCode))])]),_vm._v(" "),_c('p',[_vm._v("原始学期："),_c('span',[_vm._v(_vm._s(this.infoList.semester))])]),_vm._v(" "),_c('p',[_vm._v("学分："),_c('span',[_vm._v(_vm._s(this.infoList.credit))])]),_vm._v(" "),_c('p',[_vm._v("属性："),_c('span',[_vm._v(_vm._s(this.infoList.curriculumAttributes))])]),_vm._v(" "),_c('p',{staticStyle:{"margin-top":"20px"}},[_vm._v("替换课程："),_c('span',[_vm._v(_vm._s(this.infoList.substitutionCourseName))])]),_vm._v(" "),_c('p',[_vm._v("课程代码："),_c('span',[_vm._v(_vm._s(this.infoList.substitutionCourseCode))])]),_vm._v(" "),_c('p',[_vm._v("学年学期："),_c('span',[_vm._v(_vm._s(this.infoList.substitutionSemester))])]),_vm._v(" "),_c('p',[_vm._v("学分："),_c('span',[_vm._v(_vm._s(this.infoList.substitutionCredit))])]),_vm._v(" "),_c('p',[_vm._v("属性："),_c('span',[_vm._v(_vm._s(this.infoList.substitutionAttributes))])])])]),_vm._v(" "),(this.infoList.auditStatus == '未送审')?_c('div',{staticClass:"send-button"},[_c('p',[_vm._v("请确认信息无误后再提交")]),_vm._v(" "),_c('button',{on:{"click":function($event){return _vm.sendApply()}}},[_vm._v("送审")])]):_vm._e()],1)}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-b23508bc","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/student/Score/score_confirm.vue
+// module id = null
+// module chunks = 

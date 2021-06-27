@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[(this.allWarnList.length == 0 && _vm.isLoad)?_c('NOdata',{attrs:{"title":"暂无预警~"}}):_vm._l((_vm.allWarnList),function(item,index){return _c('div',{key:index,staticClass:"grey-contain",on:{"click":function($event){return _vm.warnDetail(item.warningId)}}},[_c('p',[_vm._v(_vm._s(item.semester))]),_vm._v(" "),_c('span',{staticStyle:{"margin-bottom":"2px"}},[_vm._v("上课专业："+_vm._s(item.majorName))]),_vm._v(" "),_c('span',[_vm._v("处理结果："+_vm._s(item.resultName))])])})],2)}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-179aaf37","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/student/statusManage/allWarn.vue
+// module id = null
+// module chunks = 

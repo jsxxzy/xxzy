@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('Header',{attrs:{"title":"教材查询"}}),_vm._v(" "),_c('div',{staticClass:"content_ textbook_Details",staticStyle:{"padding":"10px 20px","box-sizing":"border-box"}},[_c('h3',[_vm._v(_vm._s(this.infoList.teachingMaterialName))]),_vm._v(" "),_c('p',[_vm._v("ISBN书号："),_c('span',[_vm._v(_vm._s(this.infoList.isbn))])]),_vm._v(" "),_c('p',[_vm._v("出版社："),_c('span',[_vm._v(_vm._s(this.infoList.publishingHouse))])]),_vm._v(" "),_c('p',[_vm._v("作者："),_c('span',[_vm._v(_vm._s(this.infoList.author))])]),_vm._v(" "),_c('p',[_vm._v("版次："),_c('span',[_vm._v(_vm._s(this.infoList.edition))])]),_vm._v(" "),_c('p',[_vm._v("单价："),_c('span',[_vm._v(_vm._s(this.infoList.unitPrice)+"元")])]),_vm._v(" "),_c('p',{staticStyle:{"margin-top":"20px"}},[_vm._v("课程名称："),_c('span',[_vm._v(_vm._s(this.infoList.courseName))])]),_vm._v(" "),_c('p',[_vm._v("课程性质："),_c('span',[_vm._v(_vm._s(this.infoList.courseNature))])])])],1)}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-1cb76c00","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/student/Textbook/textbook_Details.vue
+// module id = null
+// module chunks = 

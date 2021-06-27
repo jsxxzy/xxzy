@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_vm._m(0),_vm._v(" "),_c('div',{staticClass:"cas-code"},[(_vm.isError)?_c('img',{attrs:{"src":"static/img/fail.png"}}):_vm._e(),_vm._v(" "),_c('p',[_vm._v(_vm._s(_vm.response))])])])}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"cas-ban"},[_c('img',{attrs:{"src":"static/img/home_ban.png"}})])}]
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-07b14aa0","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/casLogin.vue
+// module id = null
+// module chunks = 

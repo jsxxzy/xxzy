@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[(_vm.schoolCode=='10013')?_c('Header',{attrs:{"title":"教室借用审核"}}):_c('Header',{attrs:{"title":"教室借用审核","type":"0","route":_vm.back?_vm.back:'/teacher/examineIndex',"casLogin":_vm.casLogin}}),_vm._v(" "),_c('div',{staticClass:"center"},[_vm._l((_vm.list),function(item,index){return _c('div',{key:index,staticClass:"center-list"},[_c('div',{staticClass:"list-left"},[_c('div',{staticClass:"left-title"},[_vm._v(_vm._s(item.wfexname))]),_vm._v(" "),_c('div',{staticClass:"left-line"},[_c('span',[_vm._v("周次:")]),_vm._v(" "),_c('span',{staticStyle:{"margin-left":"5px"}},[_vm._v(_vm._s(item.kkzc))])]),_vm._v(" "),_c('div',{staticClass:"left-line"},[_c('span',[_vm._v("时间:")]),_vm._v(" "),_c('span',{staticStyle:{"margin-left":"5px"}},[_vm._v(_vm._s(item.cjsj))])]),_vm._v(" "),_c('div',{staticClass:"left-line"},[_c('span',[_vm._v("学年学期:")]),_vm._v(" "),_c('span',{staticStyle:{"margin-left":"5px"}},[_vm._v(_vm._s(item.xnxqh))])])]),_vm._v(" "),_c('div',{staticClass:"list-right"},[_c('van-button',{staticClass:"right-button",attrs:{"type":"default"},on:{"click":function($event){return _vm.pushDetail(item)}}},[_vm._v("审核")])],1)])}),_vm._v(" "),(_vm.list.length == 0)?_c('van-empty',{staticClass:"custom-image",attrs:{"image":"static/img/no_data.png","description":"暂无数据"}}):_vm._e()],2)],1)}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-0d79a9d2","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/teacher/Examine/classroom-borrowing/list.vue
+// module id = null
+// module chunks = 

@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{attrs:{"οnlοad":"opener.location.reload()"}},[_c('Header',{attrs:{"title":"等级考试报名","type":"0","route":"/homeIndex","casLogin":_vm.casLogin}}),_vm._v(" "),(this.gradeList.length == 0 && _vm.isLoad)?_c('NOdata',{attrs:{"title":"暂无数据~"}}):_vm._l((_vm.gradeList),function(item,index){return _c('div',{key:index,staticClass:"grey-contain"},[_c('div',{staticClass:"contain-left"},[_c('p',{staticClass:"contain-txt"},[_vm._v(_vm._s(item.examinationType)+"("+_vm._s(item.examinationGrade)+")")]),_vm._v(" "),_c('span',{staticClass:"contain-txt1"},[_vm._v("截止时间："+_vm._s(item.deadline))]),_vm._v(" "),(!(_vm.schoolCode=='12425'))?_c('div',{staticClass:"contain-txt1"},[_vm._v("报名费用："),_c('span',{staticStyle:{"color":"#F86969"}},[_vm._v("¥"+_vm._s(item.cost))])]):_vm._e(),_vm._v(" "),(_vm.schoolCode=='12425')?_c('div',{staticClass:"contain-txt1"},[_vm._v("报名全报费用："),_c('span',{staticStyle:{"color":"#F86969"}},[_vm._v("¥"+_vm._s(item.cost))])]):_vm._e(),_vm._v(" "),(_vm.schoolCode=='12425')?_c('div',{staticClass:"contain-txt1"},[_vm._v("报名费用："),_c('span',{staticStyle:{"color":"#F86969"}},[_vm._v("¥"+_vm._s(item.bscost))])]):_vm._e()]),_vm._v(" "),_c('button',{on:{"click":function($event){return _vm.goSign(index)}}},[_vm._v("报名")])])}),_vm._v(" "),_c('router-link',{staticClass:"delay-btns",attrs:{"to":"/student/myExam"}},[_c('button',[_vm._v("查看我的报名申请")])])],2)}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-18a86a02","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/student/gradeExam.vue
+// module id = null
+// module chunks = 

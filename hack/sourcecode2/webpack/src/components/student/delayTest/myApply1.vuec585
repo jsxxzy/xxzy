@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('Header',{attrs:{"title":"我的缓考申请"}}),_vm._v(" "),_c('div',{staticClass:"my-apply1"},[_c('p',{staticClass:"apply-ttl",style:(this.applyDetail.auditStatus == '通过' ? 'color: #12DDD6;' : 'color:#F86969;')},[_vm._v(_vm._s(this.applyDetail.auditStatus))]),_vm._v(" "),_c('p',{staticClass:"apply-sub"},[_vm._v(_vm._s(this.applyDetail.courseName))]),_vm._v(" "),_c('div',{staticClass:"info-text"},[_c('p',[_vm._v("审核人："+_vm._s(this.applyDetail.shr))]),_vm._v(" "),_c('p',[_vm._v("申请时间："+_vm._s(this.applyDetail.applicationTime))]),_vm._v(" "),_c('div',{staticClass:"reason"},[_c('p',[_vm._v("缓考原因：")]),_vm._v(" "),_c('p',{staticClass:"reason-txt"},[_vm._v(_vm._s(this.applyDetail.reason))])]),_vm._v(" "),_c('p',[_vm._v("学时："+_vm._s(this.applyDetail.period))]),_vm._v(" "),_c('p',[_vm._v("学分："+_vm._s(this.applyDetail.credit))]),_vm._v(" "),_c('p',[_vm._v("课号："+_vm._s(this.applyDetail.courseCode))]),_vm._v(" "),_c('p',[_vm._v("学年学期："+_vm._s(this.applyDetail.semester))]),_vm._v(" "),_c('p',[_vm._v("课程性质："+_vm._s(this.applyDetail.courseNature))]),_vm._v(" "),_c('p',[_vm._v("考试方式："+_vm._s(this.applyDetail.examinationNature))]),_vm._v(" "),_c('p',[_vm._v("成绩标识："+_vm._s(this.applyDetail.achievementMark))])])])],1)}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-30df6f9e","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/student/delayTest/myApply1.vue
+// module id = null
+// module chunks = 

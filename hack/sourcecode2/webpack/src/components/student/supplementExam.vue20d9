@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('Header',{attrs:{"title":"补考查询","type":"0","route":"/homeIndex","casLogin":_vm.casLogin}}),_vm._v(" "),_c('div',{staticClass:"center"},[_c('div',{staticClass:"center-top"},[_c('div',{staticClass:"top-date"},[_vm._v(_vm._s(_vm.semester))])]),_vm._v(" "),_c('div',{staticClass:"center-table"},[_vm._m(0),_vm._v(" "),_c('div',{staticClass:"table-one"},_vm._l((_vm.changeList),function(item,index){return _c('div',{key:index,staticClass:"table-one-content",style:(_vm.getColor(index))},[_c('div',{staticClass:"table-one-span-name"},[_vm._v(_vm._s(item.courseName))]),_vm._v(" "),_c('div',{staticClass:"table-one-span-two"},[_vm._v(_vm._s(item.fraction))]),_vm._v(" "),_c('div',{staticClass:"table-one-span-two"},[_vm._v(_vm._s(item.credit))]),_vm._v(" "),_c('div',{staticClass:"table-one-span-four"},[_vm._v(_vm._s(item.curriculumAttributes))])])}),0)])])],1)}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"table-one-title"},[_c('div',{staticClass:"table-one-span-name"},[_vm._v("课程名称")]),_vm._v(" "),_c('div',{staticClass:"table-one-span-two"},[_vm._v("成绩")]),_vm._v(" "),_c('div',{staticClass:"table-one-span-two"},[_vm._v("学分")]),_vm._v(" "),_c('div',{staticClass:"table-one-span-four"},[_vm._v("课程属性")])])}]
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-d1e96ee6","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/student/supplementExam.vue
+// module id = null
+// module chunks = 

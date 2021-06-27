@@ -1,0 +1,13 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('Header',{attrs:{"title":"培养方案总纲","type":"0","route":"/homeIndex"}}),_vm._v(" "),_c('div',{staticClass:"pyfazgIndex"},[_c('div',{staticClass:"list-head"},[_c('p',[_vm._v(_vm._s(_vm.pyfa.mc))]),_vm._v(" "),_c('ul',[_c('li',[_vm._v("发布人："+_vm._s(_vm.infoList.publisher))]),_vm._v(" "),_c('li',[_vm._v("时间："+_vm._s(_vm.infoList.publishTime))]),_vm._v(" "),_c('li',[_vm._v("版本："+_vm._s(_vm.infoList.fosterEdition))])]),_vm._v(" "),_c('span',{on:{"click":function($event){return _vm.showPop('培养方案', 'pyfa')}}},[_vm._v("选择")])]),_vm._v(" "),_c('div',{staticClass:"content"},[_c('span',{domProps:{"innerHTML":_vm._s(_vm.infoList.detail)}})])]),_vm._v(" "),_c('van-popup',{attrs:{"round":"","position":"bottom"},model:{value:(_vm.show),callback:function ($$v) {_vm.show=$$v},expression:"show"}},[_c('van-picker',{attrs:{"title":_vm.valueList.label,"show-toolbar":"","columns":_vm.valueList.item},on:{"cancel":function($event){_vm.show = false},"confirm":function (value, index) {
+          _vm.onConfirm(value, index, _vm.valueList.value);
+        }}})],1)],1)}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-7fdb0484","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/newPages/teacher/train/pyfazgIndex.vue
+// module id = null
+// module chunks = 

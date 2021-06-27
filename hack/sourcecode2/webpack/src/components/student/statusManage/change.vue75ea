@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('Header',{attrs:{"title":"学籍异动"}}),_vm._v(" "),(this.changeList.length == 0 && _vm.isLoad)?_c('NOdata',{attrs:{"title":"暂无异动信息~"}}):_vm._l((_vm.changeList),function(item,index){return _c('div',{key:index,staticClass:"grey-contain",on:{"click":function($event){return _vm.changeDetail(item.alienationId,item.auditState)}}},[_c('div',[_c('p',[_vm._v(_vm._s(item.semesterName))]),_vm._v(" "),_c('span',[_vm._v("异动类别："+_vm._s(item.alienationType))])]),_vm._v(" "),_c('p',{class:item.auditState == '通过' ? 'text2' : 'text1'},[_vm._v(_vm._s(item.auditState == '通过' ? '已通过' : item.auditState))])])})],2)}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-2fa3b966","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/student/statusManage/change.vue
+// module id = null
+// module chunks = 

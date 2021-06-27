@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"tabbar"},[_c('router-link',{staticClass:"tab-item",attrs:{"to":"/message","tag":"div"}},[_c('img',{attrs:{"alt":"","src":this.$route.path == '/message' ? 'static/img/msg1.png' : 'static/img/msg.png'}})]),_vm._v(" "),_c('router-link',{staticClass:"tab-item",attrs:{"to":"homeIndex","tag":"div"}},[_c('img',{attrs:{"alt":"","src":this.$route.path == '/homeIndex' ? 'static/img/home1.png' : 'static/img/home.png'}})]),_vm._v(" "),_c('router-link',{staticClass:"tab-item",attrs:{"to":"person","tag":"div"}},[_c('img',{attrs:{"alt":"","src":this.$route.path == '/person'? 'static/img/person1.png' : 'static/img/person.png'}})])],1)}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-76d2e08f","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/common/Tabbar.vue
+// module id = 1g0i
+// module chunks = 60

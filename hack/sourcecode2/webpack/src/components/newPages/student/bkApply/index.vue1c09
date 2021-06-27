@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"bk"},[_c('Header',{attrs:{"title":"补考报名","type":"0","route":"/homeIndex"}}),_vm._v(" "),(this.bkList && this.bkList.length == 0)?_c('NOdata',{attrs:{"title":"未查询到补考数据"}}):_c('div',{staticClass:"content"},_vm._l((_vm.bkList),function(item,index){return _c('div',{key:index,staticClass:"list-item"},[_c('div',{staticClass:"item-top"},[_c('p',[_vm._v(_vm._s(item.kcmc))]),_vm._v(" "),_c('van-row',[_c('van-col',{attrs:{"span":"15"}},[_c('ul',[_c('li',[_vm._v("开课学期："+_vm._s(item.kkxq))]),_vm._v(" "),_c('li',[_vm._v("补考报名学期："+_vm._s(item.bkbmxq))]),_vm._v(" "),_c('li',[_vm._v("课程属性："+_vm._s(item.kcsx))]),_vm._v(" "),_c('li',[_vm._v("考试性质："+_vm._s(item.ksxz))])])]),_vm._v(" "),_c('van-col',{attrs:{"span":"7"}},[_c('ul',[_c('li',[_vm._v("学时："+_vm._s(item.xs))]),_vm._v(" "),_c('li',[_vm._v("学分："+_vm._s(item.xf))]),_vm._v(" "),_c('li',[_vm._v("总成绩："+_vm._s(item.zcj))])])])],1),_vm._v(" "),_c('van-row',[_c('van-col',{attrs:{"span":"24"}},[_c('ul',[_c('li',[_vm._v("课程信息："+_vm._s(item.kcxx))]),_vm._v(" "),_c('li',[_vm._v("报名状态："+_vm._s(item.sfkbm == "0" ? "已报名" : "未报名"))])])])],1)],1),_vm._v(" "),(item.sfkbm == '0')?_c('span',{staticClass:"qxbmClass",on:{"click":function($event){return _vm.regist(item.cj0716id, item.sfkbm)}}},[_vm._v("取消报名")]):_vm._e(),_vm._v(" "),(item.sfkbm == '1')?_c('span',{staticClass:"bmClass",on:{"click":function($event){return _vm.regist(item.cj0716id, item.sfkbm)}}},[_vm._v("立即报名")]):_vm._e()])}),0)],1)}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-e9f51088","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/newPages/student/bkApply/index.vue
+// module id = null
+// module chunks = 

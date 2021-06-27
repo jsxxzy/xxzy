@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('Header',{attrs:{"title":"异动详情"}}),_vm._v(" "),_c('div',{staticClass:"my-apply1"},[_c('p',{class:this.status == '通过'? 'text1' : 'text2'},[_vm._v(_vm._s(this.status))]),_vm._v(" "),_c('p',{staticClass:"apply-sub"},[_vm._v(_vm._s(this.applyDetail.semesterName))]),_vm._v(" "),_c('div',{staticClass:"info-text"},[_c('p',[_vm._v("异动类别："),_c('span',[_vm._v(_vm._s(this.applyDetail.alienationType))])]),_vm._v(" "),_c('p',[_vm._v("异动原因："),_c('span',[_vm._v(_vm._s(this.applyDetail.alienatioReason))])]),_vm._v(" "),_c('p',[_vm._v("新学院："),_c('span',[_vm._v(_vm._s(this.applyDetail.newAcademy))])]),_vm._v(" "),_c('p',[_vm._v("新专业："),_c('span',[_vm._v(_vm._s(this.applyDetail.newMajor))])]),_vm._v(" "),_c('p',[_vm._v("新班级："),_c('span',[_vm._v(_vm._s(this.applyDetail.newClass))])]),_vm._v(" "),_c('p',[_vm._v("新学籍："),_c('span',[_vm._v(_vm._s(this.applyDetail.newStudentStatue))])]),_vm._v(" "),_c('p',[_vm._v("新状态："),_c('span',[_vm._v(_vm._s(this.applyDetail.newInschoolStatue))])]),_c('br'),_vm._v(" "),_c('p',[_vm._v("原学院："),_c('span',[_vm._v(_vm._s(this.applyDetail.oldAcademy))])]),_vm._v(" "),_c('p',[_vm._v("原专业："),_c('span',[_vm._v(_vm._s(this.applyDetail.oldMajor))])]),_vm._v(" "),_c('p',[_vm._v("原班级："),_c('span',[_vm._v(_vm._s(this.applyDetail.oldClass))])]),_vm._v(" "),_c('p',[_vm._v("原学籍："),_c('span',[_vm._v(_vm._s(this.applyDetail['oldStudent|Statue']))])]),_vm._v(" "),_c('p',[_vm._v("原状态："),_c('span',[_vm._v(_vm._s(this.applyDetail.oldInschoolStatue))])])])])],1)}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-66114109","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/student/statusManage/changeDetail.vue
+// module id = null
+// module chunks = 

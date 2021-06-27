@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('Header',{attrs:{"title":"课程设置总表"}}),_vm._v(" "),(this.clList.length == 0 && _vm.isLoad)?_c('NOdata',{attrs:{"title":"暂无数据~"}}):_c('div',{staticClass:"content_ courseSet"},_vm._l((_vm.clList),function(item,index){return _c('div',{key:index,staticClass:"courseSet_list",on:{"click":function($event){return _vm.goDetail(index)}}},[_c('h4',{staticStyle:{"color":"#212F6E","font-size":"16px","line-height":"24px","font-weight":"600"}},[_vm._v(_vm._s(item.courseName))]),_vm._v(" "),_c('div',{staticClass:"set-part"},[_c('div',[_c('p',[_vm._v("学分："+_vm._s(item.credit))]),_vm._v(" "),_c('p',[_vm._v("学时："+_vm._s(item.totalHours))]),_vm._v(" "),_c('p',[_vm._v("课程属性:"+_vm._s(item.courseAttribute))]),_vm._v(" "),_c('p',[_vm._v("课程编号:"+_vm._s(item.courseCode))])]),_vm._v(" "),_c('div',[_c('p',[_vm._v("考核方式："+_vm._s(item.evaluationMode))]),_vm._v(" "),_c('p',[_vm._v("是否考试："+_vm._s(item.whetherTest))]),_vm._v(" "),_c('p',[_vm._v("开设学期："+_vm._s(item.openSemester))])])]),_vm._v(" "),_c('p',[_vm._v("开课单位："+_vm._s(item.courseUnits))])])}),0)],1)}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-90eef4a0","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/student/Cultivate/courseSet.vue
+// module id = null
+// module chunks = 

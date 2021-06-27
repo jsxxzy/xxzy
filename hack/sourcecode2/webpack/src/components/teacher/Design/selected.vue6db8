@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('Header',{attrs:{"title":"学生选题情况"}}),_vm._v(" "),(this.arrList.length == 0)?_c('NOdata',{attrs:{"title":"暂无选题数据~"}}):_c('div',{staticClass:"type"},_vm._l((_vm.arrList),function(item,index){return _c('div',{key:index,staticClass:"contents"},[_c('div',{staticClass:"left_box"},[_c('span',{staticClass:"spans"},[_vm._v(_vm._s(item.projectName))]),_vm._v(" "),_c('span',[_vm._v("题目编号："+_vm._s(item.projectCode))]),_vm._v(" "),_c('span',[_vm._v("学科门类："+_vm._s(item.discipline))]),_vm._v(" "),_c('span',[_vm._v("题目类型："+_vm._s(item.subjectType))])]),_vm._v(" "),_c('div',{staticClass:"right_box"},[_c('div',{staticClass:"people"},[_c('span',[_vm._v(_vm._s(item.selectedNum))]),_vm._v(" "),_c('span',[_vm._v("选中人数")])])])])}),0)],1)}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-5b719968","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/teacher/Design/selected.vue
+// module id = null
+// module chunks = 

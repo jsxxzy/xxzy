@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('Header',{attrs:{"title":"学籍预警","type":"0","route":"/homeIndex"}}),_vm._v(" "),_c('div',{staticClass:"warn-tab"},[_c('router-link',{attrs:{"to":"/student/curWarn","tag":"li"}},[_vm._v("当前预警")]),_vm._v(" "),_c('router-link',{attrs:{"to":"/student/allWarn","tag":"li"}},[_vm._v("全部预警")])],1),_vm._v(" "),_c('div',[_c('router-view')],1)],1)}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-0a51cafc","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/student/statusManage/warning.vue
+// module id = null
+// module chunks = 

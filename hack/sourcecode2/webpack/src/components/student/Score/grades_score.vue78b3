@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('Header',{attrs:{"title":"等级考试成绩"}}),_vm._v(" "),(this.gradesList.length == 0)?_c('NOdata',{attrs:{"title":"暂无数据~"}}):_c('div',{staticClass:"gradesScore content_"},_vm._l((_vm.gradesList),function(list,index){return _c('div',{key:index,staticClass:"gradesScore_list"},[_c('div',[_c('h4',[_vm._v(_vm._s(list.courseName)+"("+_vm._s(list.socialExaminationGradeName)+")")]),_vm._v(" "),_c('p',[_vm._v("考试时间："+_vm._s(list.date))])]),_vm._v(" "),_c('div',{staticClass:"score-btn",on:{"click":function($event){return _vm.popup(list)}}},[_c('p',[_vm._v(_vm._s(list.overallResult))]),_vm._v(" "),_c('span',[_vm._v("总成绩")])])])}),0),_vm._v(" "),_c('van-popup',{attrs:{"id":"popup"},model:{value:(_vm.popShow),callback:function ($$v) {_vm.popShow=$$v},expression:"popShow"}},[_c('h2',[_vm._v(_vm._s(this.popList.courseName)+"("+_vm._s(this.popList.socialExaminationGradeName)+")")]),_vm._v(" "),_c('div',[_vm._v(_vm._s(this.popList.overallResult))]),_vm._v(" "),_c('p',[_vm._v("笔试："),_c('span',[_vm._v(_vm._s(this.popList.writtenTestScore))])]),_vm._v(" "),_c('p',[_vm._v("机试："),_c('span',[_vm._v(_vm._s(this.popList.practiceScore))])]),_vm._v(" "),_c('p',[_vm._v("考级时间："),_c('span',[_vm._v(_vm._s(this.popList.date))])]),_vm._v(" "),_c('p',[_vm._v("准考证号："),_c('span',[_vm._v(_vm._s(this.popList.admissionTicketNumber))])]),_vm._v(" "),_c('button',{on:{"click":function($event){return _vm.closePop()}}},[_vm._v("确定")])])],1)}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-4ca95e1a","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/student/Score/grades_score.vue
+// module id = null
+// module chunks = 

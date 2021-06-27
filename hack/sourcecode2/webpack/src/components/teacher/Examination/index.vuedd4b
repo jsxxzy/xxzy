@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('Header',{attrs:{"title":"考务","type":"0","route":"/homeIndex","casLogin":_vm.casLogin}}),_vm._v(" "),(_vm.resetList.length == 0)?_c('NOdata',{attrs:{"title":"暂无数据"}}):_vm._e(),_vm._v(" "),_vm._l((_vm.resetList),function(item,index){return _c('Menu',{key:index,attrs:{"title":item.name,"route":item.path}})})],2)}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-c6a55aae","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/teacher/Examination/index.vue
+// module id = null
+// module chunks = 

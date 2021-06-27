@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"work"},[_c('Header',{attrs:{"title":"教室借用","type":"0","route":"/homeIndex"}}),_vm._v(" "),_c('router-view'),_vm._v(" "),_c('van-tabbar',{staticClass:"bottom-nav",attrs:{"active-color":"#7469F8","inactive-color":"#B3B9D0","route":""},model:{value:(_vm.active),callback:function ($$v) {_vm.active=$$v},expression:"active"}},[_c('van-tabbar-item',{attrs:{"icon":"like-o","replace":"","to":"/bindex"}},[_c('span',{staticClass:"nav-title"},[_vm._v("我要借用")])]),_vm._v(" "),_c('van-tabbar-item',{attrs:{"icon":"like","replace":"","to":"/bList"}},[_c('span',{staticClass:"nav-title"},[_vm._v("借用记录")])])],1)],1)}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-ccadacde","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/newPages/teacher/roomBrrow/borrowBar.vue
+// module id = null
+// module chunks = 

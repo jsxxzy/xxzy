@@ -1,0 +1,18 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"cx"},[_c('Header',{attrs:{"title":"重修报名","type":"0","route":"/homeIndex"}}),_vm._v(" "),(this.cxList && this.cxList.length == 0)?_c('NOdata',{attrs:{"title":"未查询到重修数据"}}):_vm._e(),_vm._v(" "),_c('div',{staticClass:"content"},_vm._l((_vm.cxList),function(item,index){return _c('div',{key:index,staticClass:"list-item"},[_c('div',{staticClass:"item-top"},[_c('p',[_vm._v(_vm._s(item.kcmc))]),_vm._v(" "),_c('van-row',[_c('van-col',{attrs:{"span":"14"}},[_c('ul',[_c('li',[_vm._v("\n                是否报名："+_vm._s(item.sfbm ? (item.sfbm == 0 ? "×" : "√") : "-")+"\n              ")]),_vm._v(" "),_c('li',[_vm._v("开课院审："+_vm._s(item.kkysxs))]),_vm._v(" "),_c('li',[_vm._v("学年学期："+_vm._s(item.xqmc))]),_vm._v(" "),_c('li',[_vm._v("课程名称："+_vm._s(item.kcmc))]),_vm._v(" "),_c('li',[_vm._v("最好成绩："+_vm._s(item.zhcj))]),_vm._v(" "),_c('li',[_vm._v("\n                替代课程："+_vm._s(item.tdkch == "" ? "" : "[" + item.tdkch + "]" + item.tdkcmc)+"\n              ")])])]),_vm._v(" "),_c('van-col',{attrs:{"span":"8"}},[_c('ul',[_c('li',[_vm._v("取得资格："+_vm._s(item.qdzg ? item.qdzg : "-"))]),_vm._v(" "),_c('li',[_vm._v("上课院审："+_vm._s(item.skysxs))]),_vm._v(" "),_c('li',[_vm._v("学时："+_vm._s(item.zxs))]),_vm._v(" "),_c('li',[_vm._v("学分："+_vm._s(item.xf))]),_vm._v(" "),_c('li',[_vm._v("替代课程学时："+_vm._s(item.tdkczxs))]),_vm._v(" "),_c('li',[_vm._v("替代课程学分："+_vm._s(item.tdkcxf))])])])],1)],1),_vm._v(" "),(item.sfbm == '0' && _vm.sfkbm == true)?_c('span',{staticClass:"bmClass",on:{"click":function($event){return _vm.bm(item)}}},[_vm._v("\n        立即报名\n      ")]):_vm._e(),_vm._v(" "),(
+          item.sfbm == '1' &&
+            _vm.sfkbm == true &&
+            item.sfjf == '0' &&
+            item.skys == '0' &&
+            item.kkys == '0' &&
+            item.sfxk == '0'
+        )?_c('span',{staticClass:"qxbmClass",on:{"click":function($event){return _vm.cancelBm(item)}}},[_vm._v("\n        取消报名\n      ")]):_vm._e()])}),0)],1)}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-d216ef00","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/newPages/student/cxApply/index.vue
+// module id = null
+// module chunks = 

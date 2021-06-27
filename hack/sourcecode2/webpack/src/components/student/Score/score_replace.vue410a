@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('Header',{attrs:{"title":"成绩认定","type":"0","route":"/student/score_Affirmation"}}),_vm._v(" "),_c('div',{staticClass:"score_replace"},[_vm._m(0),_vm._v(" "),_vm._l((_vm.courseList),function(item,index){return _c('div',{key:index,staticClass:"course_list",on:{"click":function($event){return _vm.canSelect(item.CANCHECK)}}},[_c('div',[_c('h4',[_vm._v(_vm._s(item.COURSENAME))]),_vm._v(" "),_c('p',{staticClass:"course_list_item"},[_vm._v("课程代码:"+_vm._s(item.COURSECODE))]),_vm._v(" "),_c('div',{staticClass:"course_list_item"},[_c('span',[_vm._v("学分: "),_c('small',[_vm._v(_vm._s(item.CREDIT))])]),_vm._v(" "),_c('span',[_vm._v("属性: "),_c('small',[_vm._v(_vm._s(item.COURSEATTRIBUTE))])])])]),_vm._v(" "),(item.CANCHECK == 1)?_c('el-checkbox',{model:{value:(item.checked),callback:function ($$v) {_vm.$set(item, "checked", $$v)},expression:"item.checked"}}):_vm._e()],1)})],2),_vm._v(" "),_c('div',{staticClass:"submit_btn"},[_c('button',{on:{"click":function($event){return _vm.courseSubmit()}}},[_vm._v("下一步")])])],1)}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('h3',{staticStyle:{"color":"@attendance-background-color-1","font-size":"18px"}},[_vm._v("请选择替代课程"),_c('small',[_vm._v("（可多选）")])])}]
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-f7273498","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/student/Score/score_replace.vue
+// module id = null
+// module chunks = 

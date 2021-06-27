@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('Header',{attrs:{"title":"学籍预警"}}),_vm._v(" "),_c('div',{staticClass:"warn"},[_c('p',{staticClass:"warn-ttl"},[_vm._v(_vm._s(this.curWarnList.warningName))]),_vm._v(" "),_c('p',{staticClass:"warn-year"},[_vm._v(_vm._s(this.curWarnList.semester))]),_vm._v(" "),_c('p',{staticClass:"warn-info"},[_vm._v("上课专业："+_vm._s(this.curWarnList.majorName))]),_vm._v(" "),_c('p',{staticClass:"warn-info"},[_vm._v("处理结果："+_vm._s(this.curWarnList.resultName))])])],1)}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-2fcbb43a","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/student/statusManage/warnDetail.vue
+// module id = null
+// module chunks = 

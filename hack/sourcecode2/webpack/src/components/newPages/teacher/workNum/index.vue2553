@@ -1,0 +1,13 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('Header',{attrs:{"title":"工作量查询"}}),_vm._v(" "),_c('div',{staticClass:"work"},[_c('div',{staticClass:"work-head"},[_c('div',[_c('p',[_vm._v("学年学期")]),_vm._v(" "),_c('span',{on:{"click":function($event){return _vm.showPop('学年学期', 'xnxq')}}},[_c('i',[_vm._v(_vm._s(_vm.xnxq))]),_vm._v(" "),_c('b')])]),_vm._v(" "),_c('div',[_c('p',[_vm._v("计算范围")]),_vm._v(" "),_c('span',{on:{"click":function($event){return _vm.showPop('计算范围', 'jsfw')}}},[_c('i',[_vm._v(_vm._s(_vm.jsfw))]),_vm._v(" "),_c('b')])])]),_vm._v(" "),_c('div',{staticClass:"work-content"},[_c('span',[_vm._v("总工作量："+_vm._s(_vm.zgzl))]),_vm._v(" "),(_vm.workList.length == 0)?_c('NOdata',{attrs:{"title":"暂无数据"}}):_vm._e(),_vm._v(" "),_vm._l((_vm.workList),function(item,index){return _c('div',{key:index,staticClass:"work-item"},[_c('p',[_vm._v(_vm._s(item.kcmc))]),_vm._v(" "),_c('div',{staticClass:"work-main"},[_c('div',[_c('ul',[_c('li',[_vm._v("工作量："+_vm._s(item.gzl))]),_vm._v(" "),_c('li',[_vm._v("总学时："+_vm._s(item.zxs))]),_vm._v(" "),_c('li',[_vm._v("周学时："+_vm._s(item.zhxs))]),_vm._v(" "),_c('li',[_vm._v("上课周数："+_vm._s(item.skzs))]),_vm._v(" "),_c('li',[_vm._v("学生数："+_vm._s(item.xss))])])]),_vm._v(" "),_c('div',[_c('ul',[_c('li',[_vm._v("学时分类："+_vm._s(item.xsfl))]),_vm._v(" "),_c('li',[_vm._v("课程分类："+_vm._s(item.kcfl))]),_vm._v(" "),_c('li',[_vm._v("班级数："+_vm._s(item.bjs))]),_vm._v(" "),_c('li',[_vm._v("班级名称："+_vm._s(item.bjmc))])])])])])})],2)]),_vm._v(" "),_c('van-popup',{attrs:{"round":"","position":"bottom"},model:{value:(_vm.show),callback:function ($$v) {_vm.show=$$v},expression:"show"}},[_c('van-picker',{attrs:{"title":_vm.valueList.label,"show-toolbar":"","columns":_vm.valueList.item},on:{"cancel":function($event){_vm.show = false},"confirm":function (value, index) {
+          _vm.onConfirm(value, index, _vm.valueList.value);
+        }}})],1)],1)}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-ab216234","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/newPages/teacher/workNum/index.vue
+// module id = null
+// module chunks = 

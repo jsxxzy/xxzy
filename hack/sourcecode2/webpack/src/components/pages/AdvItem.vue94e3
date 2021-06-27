@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"advItem"},[_c('Header',{attrs:{"advItem-title":"公告详情"}}),_vm._v(" "),_c('div',{staticClass:"advItem-asid"},[_c('p',[_vm._v(_vm._s(_vm.advItemLists.ggbt))]),_vm._v(" "),_c('p',[_vm._v("发布类别："),_c('span',[_vm._v(_vm._s(this.$route.params.gglbname))])]),_vm._v(" "),_c('p',[_vm._v("发布人："),_c('span',[_vm._v(_vm._s(_vm.advItemLists.ggfsr))])]),_vm._v(" "),_c('p',[_vm._v("发布时间："),_c('span',[_vm._v(_vm._s(_vm.advItemLists.ggfbsj))])]),_vm._v(" "),_c('p',[_vm._v("有效期：")]),_c('p',[_c('span',[_vm._v(_vm._s(_vm.advItemLists.ggkssj))]),_vm._v("\n      ~"),_c('span',[_vm._v(_vm._s(_vm.advItemLists.ggjssj))])])]),_vm._v(" "),_c('div',{staticClass:"advItem-content"},[_c('p',[_vm._v("公告内容：")]),_vm._v(" "),_c('span',{domProps:{"innerHTML":_vm._s(_vm.advItemLists.ggnr)}})]),_vm._v(" "),(_vm.isShow)?_c('div',{staticClass:"advItem-foot",on:{"click":_vm.downloadFile}},[_c('van-button',{attrs:{"type":"primary","size":"large"}},[_vm._v("下载附件")])],1):_vm._e()],1)}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-f51e1ed6","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/pages/AdvItem.vue
+// module id = null
+// module chunks = 

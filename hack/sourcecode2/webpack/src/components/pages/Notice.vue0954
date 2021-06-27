@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"notice"},[_c('Header',{attrs:{"title":"通知"}}),_vm._v(" "),(this.msgLists.length == 0)?_c('NOdata',{attrs:{"title":"暂无消息~"}}):_c('div',_vm._l((_vm.msgLists),function(item,index){return _c('div',{key:index},[_c('div',{staticClass:"notice-item"},[_c('h1',{staticClass:"note-title"},[_vm._v(_vm._s(item.msgTitle))]),_vm._v(" "),_c('p',{class:item.isOpen ? '' : 'is-open'},[_vm._v(_vm._s(item.msgDes))]),_vm._v(" "),_c('div',{staticClass:"check-dtl",on:{"click":function($event){item.isOpen = !item.isOpen;_vm.open(item.msgId)}}},[_vm._v(_vm._s(item.isOpen ? '收起' : '展开'))])]),_vm._v(" "),_c('div',{staticClass:"notice-time"},[_vm._v(_vm._s(item.msgTime))])])}),0)],1)}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-e25898ce","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/pages/Notice.vue
+// module id = null
+// module chunks = 
